@@ -1,0 +1,9 @@
+ version: '3' 
+ services:
+  database:
+    image: postgres:11-alpine 
+    environment:
+      POSTGRES_USER: vue3
+      POSTGRES_PASSWORD: vue3 
+      POSTGRESDB: vue3
+    ports: [5432]
